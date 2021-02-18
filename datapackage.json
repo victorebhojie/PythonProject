@@ -1,0 +1,27 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "package",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Name of Item",
+            "type": "string",
+            "format": "default",
+            "description": "Prices for Gas since !997",
+            "title": "Gas Prices"
+          },
+          {
+            "name": "Author",
+            "type": "string",
+            "format": "default",
+            "title": "Author",
+            "description": "Victor Ebhojie"
+          }
+        ]
+      }
+    }
+  ]
+}
