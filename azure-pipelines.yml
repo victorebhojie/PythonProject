@@ -32,5 +32,6 @@ steps:
 
 - script: |
     pip install pytest pytest-azurepipelines
+    pip freeze > requirements.txt
     pytest
   displayName: 'pytest'
